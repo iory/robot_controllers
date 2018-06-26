@@ -62,6 +62,7 @@ include_directories(
 link_directories(${orocos_kdl_LIBRARY_DIRS})
 
 add_library(robot_controllers
+  src/cartesian_impedance.cpp
   src/cartesian_pose.cpp
   src/cartesian_twist.cpp
   src/cartesian_wrench.cpp
